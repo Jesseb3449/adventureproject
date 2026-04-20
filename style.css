@@ -10,6 +10,8 @@
 }
 
 #game-Scene {
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     background-image: url(/imagines/background.png);
     background-repeat: no-repeat;
@@ -26,7 +28,9 @@
 #main-Menu-Btns {
     display: flex;
     flex-direction: column;
-    
+    height:30vh;
+    width:33vw;
+    justify-content:space-around;
 }
 
 .mm-Btns {
@@ -35,6 +39,7 @@
     background-color: var(--mm-Btns);
     color: var(--universal-white);
     cursor: pointer;
-    height: 3vh;
-    width: 12vw
+    border:none;
+    height: 5vh;
+    width: 100%;
 }
